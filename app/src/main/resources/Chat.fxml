@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="600.0" maxWidth="600.0" minHeight="600.0" minWidth="600.0" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChatControllerImpl">
+    <AnchorPane prefHeight="100.0" prefWidth="900.0" style="-fx-background-color: #2E3348;">
+        <Button fx:id="exitButton" layoutX="690.0" layoutY="35.0" mnemonicParsing="false" onAction="#onExitButton" prefHeight="40.0" prefWidth="120.0" style="-fx-background-color: lightblue;" text="Выход">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Label layoutX="220.0" layoutY="25.0" prefHeight="50.0" prefWidth="260.0" text="Квартплата чат" textFill="WHITE">
+            <font>
+                <Font size="36.0" />
+            </font>
+    </Label>
+    </AnchorPane>
+    <TextField fx:id="inputField" layoutX="50.0" layoutY="130.0" prefHeight="40.0" prefWidth="600.0" promptText="Введите ваше сообщение...">
+        <font>
+        <Font size="18.0" />
+        </font>
+    </TextField>
+    <TextArea fx:id="outputField" editable="false" layoutX="50.0" layoutY="180.0" prefHeight="400.0" prefWidth="600.0">
+        <font>
+          <Font size="18.0" />
+        </font>
+    </TextArea>
+    <Button layoutX="670.0" layoutY="130.0" mnemonicParsing="false" onAction="#onSendButton" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #2E3348;" text="Отправить" textFill="WHITE">
+        <font>
+          <Font size="14.0" />
+        </font>
+    </Button>
+    <TextArea fx:id="usersTab" editable="false" layoutX="670.0" layoutY="180.0" prefHeight="400.0" prefWidth="180.0" wrapText="true">
+        <font>
+          <Font size="18.0" />
+        </font>
+    </TextArea>
+</AnchorPane>

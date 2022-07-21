@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="600.0" maxWidth="900.0" minHeight="600.0" minWidth="900.0" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginControllerImpl">
+    <AnchorPane prefHeight="100.0" prefWidth="900.0" style="-fx-background-color: #2E3348;">
+        <Label layoutX="320.0" layoutY="25.0" prefHeight="50.0" prefWidth="260.0" text="Квартплата чат" textFill="WHITE">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Label>
+    </AnchorPane>
+    <TextField fx:id="nameInput" layoutX="200.0" layoutY="280.0" prefHeight="40.0" prefWidth="500.0" promptText="Введите ваше имя...">
+        <font>
+        <Font size="18.0" />
+        </font>
+    </TextField>
+    <Button fx:id="loginButton" layoutX="330.0" layoutY="480.0" mnemonicParsing="false" onAction="#onLoginButton" prefHeight="60.0" prefWidth="240.0" style="-fx-background-color: #2E3348;" text="Подключиться" textFill="WHITE">
+        <font>
+        <Font size="22.0" />
+        </font>
+    </Button>
+    <TextField fx:id="ipInput" layoutX="300.0" layoutY="400.0" prefHeight="40.0" prefWidth="300.0" promptText="Введите IP-адрес..." text="127.0.0.1">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </TextField>
+    <TextField fx:id="portInput" layoutX="300.0" layoutY="340.0" prefHeight="40.0" prefWidth="300.0" promptText="Введите порт..." text="2551">
+        <font>
+          <Font size="18.0" />
+        </font>
+    </TextField>
+</AnchorPane>
