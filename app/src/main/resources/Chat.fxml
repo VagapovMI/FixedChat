@@ -11,7 +11,7 @@
                 <Font size="14.0" />
             </font>
         </Button>
-        <Label layoutX="220.0" layoutY="25.0" prefHeight="50.0" prefWidth="260.0" text="Квартплата чат" textFill="WHITE">
+        <Label layoutX="375.0" layoutY="23.0" prefHeight="54.0" prefWidth="150.0" text="IRC Chat" textFill="WHITE">
             <font>
                 <Font size="36.0" />
             </font>
